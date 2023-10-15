@@ -1,0 +1,28 @@
+
+let win = totalWin  = 102
+function getWinner(totalWin){
+ let Winner = totalWin ()
+ return totalWin
+}
+if (totalWin <=10){
+    nivel = "Ferro"
+}
+else if (totalWin <= 20){
+    nivel = "Bronze"
+}
+else if (totalWin  <= 50){
+    nivel = "Prata"
+}
+else if (totalWin  <= 80){
+    nivel = "Ouro"
+}
+else if (totalWin  <= 90){
+    nivel = "Diamante"
+}
+else if (totalWin <=100){
+    nivel = "Lendario"
+}
+else if(totalWin >= 101){
+    nivel = "Imortal"
+}
+console.log ( "O Herói tem de saldo de " + totalWin + " vitorias e está no nível "  + nivel)
